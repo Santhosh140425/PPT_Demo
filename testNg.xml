@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name= "suite"  parallel="classes" thread-count="8">
+    <test name="PPTExecution">
+        <classes>
+            <class name="org.test.HandleActions" />
+            <class name="org.test.CrossBrowserTesting" />
+            <class name="org.test.Download_upload_File" />
+            <class name="org.test.Multiple_Allerts" />
+            <class name="org.test.HandleDragAndDrop" />
+            <class name="org.test.HandleFrames" />
+            <class name="org.test.WindowsHandling" />
+
+        </classes>
+    </test>
+</suite>
