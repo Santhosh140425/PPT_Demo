@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name= "suite"  parallel="classes" thread-count="8">
+<suite name= "suite"  parallel="classes" thread-count="3">
     <test name="PPTExecution">
         <classes>
             <class name="org.test.HandleActions" />
